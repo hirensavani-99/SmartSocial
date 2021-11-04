@@ -1,1 +1,8 @@
-This is Social meadia application called smart social. This application is made use of MERN stack with functionalities of create accound , sigin , logout, make a friend, share a picture, like a picture , chat with the friend and so on. still I am working on some design because this is not responsive so.
+technology:-
+
+react.js,
+nodejs,
+express,
+socketio
+
+This appliation named smart social having functionalities to register user, login, logout, like a picture, upload a picture, make a friend , chat with them and so on.
