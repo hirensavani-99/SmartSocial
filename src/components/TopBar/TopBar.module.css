@@ -1,0 +1,211 @@
+
+
+.topbar {
+    background: #fff;
+    display: flex;
+    height: 65px;
+    padding: 0 48px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    z-index: 99;
+    position: relative;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    margin-bottom: 5%;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: inherit;
+    width: 15%;
+    position: relative;
+    z-index: 10;
+    flex: 3;
+    cursor: pointer;
+}
+
+
+.topBarCenter{
+    flex: 5;
+}
+
+.searchBox{
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.searchIcon{
+    font-size: 22px !important;
+    margin-left: 10px;
+
+}
+
+.searchInput{
+    border: none;
+
+}
+
+.searchInput:focus{
+    outline: none;
+}
+
+.topBarRight{
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #999;;
+}
+
+.topBarLink{
+    margin-right: 10px;
+    font-size: 14px;
+    cursor: pointer;    
+    text-decoration: none;
+    color: #999;;
+}
+
+.topBarLink:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.topBarIcon{
+    display: flex;
+}
+
+.topBarIconItem{
+    margin-right: 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.topBarIconBadge{
+    width: 15px;
+    height: 15px;
+    background-color: red; 
+    border-radius: 50px;
+    color: white;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.topBarImg {
+    border-radius: 50%;
+    display: inline-block;
+    transform: scale(0.7);
+    vertical-align: inherit;
+    object-fit: cover;
+    cursor: pointer;
+    height: 60px;
+    width: 60px;
+}
+
+
+
+.topbar > form {
+    display: inline-block;
+    vertical-align: sub;
+    width: 26%;
+    position: relative;
+}
+
+.toparea {
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+    width: 84%;
+}
+
+.toparea > ul {
+    display: inline-block;
+    list-style: outside none none;
+    margin-bottom: 0;
+    padding-left: 0;
+    vertical-align: middle;
+}
+
+.toparea > ul > li {
+    display: inline-block;
+    margin-right: 25px;
+    position: relative;
+    vertical-align: top;
+    z-index: 2;
+}
+
+.toparea > ul > li > a {
+    color: #999;
+}
+
+.toparea .userimg {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    line-height: 60px;
+}
+
+.toparea .user-img > span.status {
+    bottom: 10px;
+    right: 5px;
+}
+
+.toparea > span.mainmenu {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: -10px;
+    vertical-align: inherit;
+}
+
+
+
+.form-search {
+    position: absolute;
+    right: -15px;
+    top: 42px;
+    width: 300px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.searched.active .formsearch {
+    opacity: 1;
+    visibility: visible;
+}
+
+.form-search input {
+    border-style: none none solid;
+    border-width: medium medium 1px;
+    color: #999999;
+    font-size: 15px;
+    padding: 9px 18px;
+    width: 100%;
+}
+
+.form-search button {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: #999;
+    position: absolute;
+    right: 5px;
+    top: 9px;
+}
+
+.top-area > ul > li > a > span {
+    bottom: -10px;
+    font-size: 11px;
+    position: absolute;
+    right: -4px;
+}
+

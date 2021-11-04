@@ -1,0 +1,29 @@
+.Conversation{
+display: flex;
+align-items: center;
+padding: 10px;
+cursor: pointer;
+margin-top: 10px;
+}
+
+.Conversation:hover{
+    background-color: rgb(233, 227, 227);
+}
+
+
+.personpic {
+    border-radius: 50%;
+    display: inline-block;
+    transform: scale(0.7);
+    vertical-align: inherit;
+    object-fit: cover;
+    cursor: pointer;
+    height: 60px;
+    width: 60px;
+    margin-right: 10px;
+}
+
+.personName{
+    font-weight: 500;
+}
+

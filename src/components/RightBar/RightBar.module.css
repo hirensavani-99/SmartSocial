@@ -1,0 +1,143 @@
+.rightBar{
+    flex: 3.5;
+    height: calc(100vh - 65px);
+    position: sticky;
+    top: 65px;
+}
+
+.rightBarWrapper{
+    padding: 20px 0 20px 10px;
+    display: inline-block;
+    position: relative;
+    width: 80%;   
+    min-height: 8%;
+    max-height: 30%;
+    margin-bottom:0px;
+    background: #fdfdfd;
+    border: 1px solid #ede9e9;
+    border-radius: 3px;
+    margin-right: 10px;
+    margin-top: 5%;
+    overflow-y: scroll;
+    -webkit-box-shadow: 8px 11px 21px 4px rgba(0,0,0,0.78); 
+box-shadow: 8px 11px 21px 4px rgba(0,0,0,0.78);
+}
+
+.birthdayImge{
+    width: 40px;
+    height: 1px;
+    margin-right: 10px;
+}
+
+.birthdayText{
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.birthdayContainer,
+.onlineUser{
+    display: flex;
+    align-items: center;
+    border-bottom: 2 px solid #40E0D0;
+    margin-left: 10%;
+}
+
+.onlineUser1{
+    position: relative;
+}
+
+.birthdayText a{
+    color: blue;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.userImg{
+    width: 70px;
+    height:70px;
+    border-radius: 50%;
+    display: inline-block;
+    transform: scale(0.7);
+    vertical-align: inherit;
+    object-fit: cover;
+    cursor: pointer;
+    
+}
+
+.chatOnlineBadge{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: limegreen;
+    top:14px;
+    right: 14px;
+}
+
+
+.OnlineImge{
+margin-right: -19%;
+z-index: 1;
+margin-top: 20px;
+height: 12px !important;
+width: 12px !important;
+cursor: pointer;
+}
+
+.OnlineText{
+    font-weight: 400;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.widget_title {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #424242;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    padding: 20px 20px 10px;
+    position: relative;
+    text-transform: uppercase;
+    width: 70%;
+    border-bottom: 2px solid #40E0D0 ;
+}
+
+.ad{
+    margin-top: 2px;
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+}
+
+
+.rightBarWrapper1{
+    padding: 20px 0 20px 10px;
+    display: inline-block;
+    position: relative;
+    width: 80%;   
+    min-height: 8%;
+    max-height: 50%;
+    margin-bottom:0px;
+    background: #fdfdfd;
+    border: 1px solid #ede9e9;
+    border-radius: 3px;
+    margin-right: 10px;
+    margin-top: 5%;
+    overflow-y: scroll;
+    -webkit-box-shadow: 8px 11px 21px 4px rgba(0,0,0,0.78); 
+box-shadow: 8px 11px 21px 4px rgba(0,0,0,0.78);
+}
+
+
+.PIcon{
+    color: #999;
+    display: inline-block;
+    font-size: 11px;
+    margin-right: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    white-space: nowrap;
+}

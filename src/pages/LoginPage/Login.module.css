@@ -1,0 +1,111 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.loginWrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.loginleft ,.loginRight{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo{
+    display: inline-block;
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+
+.loginleft >h1{
+    color: #fff;
+    font-family: hobo std;
+}
+
+.loginleft >p{
+    color: #fff;
+    letter-spacing: 0.5px;
+}
+
+.loginRight{
+    background: #F5F5F5;
+    margin: 3%;
+}
+
+.loginleft{
+    background:#36B7B7 ;
+    padding: 5%;
+}
+
+.loginBox{
+    height: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.loginInput{
+    height: 50px;
+   border: none;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    padding-left: 20px;
+
+}
+.loginInput:focus{
+    outline: none;
+}
+
+.loginButton{
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #1775ee;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.loginButton:hover{
+    background-color: #36B7B7;
+}
+
+.loginforgot{
+    text-align: center;
+    color: #1775ee;
+    cursor: pointer;
+}
+
+.loginResigetr{
+    width: 60%;
+    align-self: center;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #42b72a;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.loginResigetr:hover{
+    background-color: #36B7B7;
+}

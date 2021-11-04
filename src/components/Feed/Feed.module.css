@@ -1,0 +1,25 @@
+.feed{
+    flex: 5.5;
+    height: calc(100vh - 65px);
+    display: table;
+    float: none;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    width:95%;
+}
+
+.feedWrapper{
+    
+    display: inline-block;
+    position: relative;
+    width: 85%;
+    margin-bottom:0px;
+    background: #fdfdfd;
+    border: 1px solid #ede9e9;
+    border-radius: 3px;
+    margin-right: 0%;
+    margin-left: 3%;
+    margin-top: 3%;
+
+    
+}

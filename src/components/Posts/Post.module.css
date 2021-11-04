@@ -1,0 +1,104 @@
+.post{
+    width:100%;
+    border-radius: 2px;
+    -webkit-box-shadow: 8px 11px 21px 4px rgba(0,0,0,0.78); 
+box-shadow: 8px 11px 21px 4px rgba(0,0,0,0.78);
+margin-top: 5%;
+}
+
+.wrapper{
+    padding: 10px;
+}
+
+.postTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postTopLeft{
+    display: flex;
+    align-items: center;
+}
+
+.postProfileImge{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+    transform: rotate(90deg);
+     
+}
+
+.postuserName{
+    font-size: 15px;
+    font-weight: 600;
+    margin:0 10px;  
+}
+
+.postDate{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.postCenter{
+    margin: 20px 0;
+}
+
+.postImge{
+    margin-top: 20px;
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+    
+}
+
+.postbottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.postBottomRight{
+display: flex;
+}
+
+.postBottomLeft{
+    display: flex;
+    align-items: center;
+}
+.Icon{
+    width: 25px;
+    height: 25px;
+    margin-right:5px;
+    cursor:pointer;
+}
+
+.LikeCounter
+{
+    font-size: 15px;
+}
+
+.CommentCounter{
+    cursor: pointer;
+    border-bottom: 1px dashed gray;
+    font-size: 15px;
+
+}
+
+.hr{
+    margin: 20px;
+
+}
+
+.CheckCircle{
+    color: DodgerBlue;
+    display: inline-block;
+    font-size: 11px;
+    margin-right: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    white-space: nowrap;
+}

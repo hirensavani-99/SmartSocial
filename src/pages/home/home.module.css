@@ -1,0 +1,10 @@
+.HomeContainer{
+    display: flex;
+    width: 100%;
+    
+}
+
+.SideBar{
+    position: sticky;
+    top: 30px;
+}
